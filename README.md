@@ -1,1 +1,2 @@
 # fornova_home_task
+In this hometask I used selenium. The request library was not able to get data that was dynamically loaded to the website via JS scripts. Also the request library extension requests_html has showed itself as insufficient since the website loads data dynamically as the user scrolls therefore we need to emulate users activity. During the sovling process I attempted to get all the links through the HAR file but it seems like only website itself is able to do that.
