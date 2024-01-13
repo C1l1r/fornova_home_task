@@ -1,0 +1,442 @@
+[
+  {
+    "room_name": "Premium Room, 1 King Bed, Park View",
+    "data": [
+      {
+        "rate_name": "Premium Room, 1 King Bed, Park View",
+        "price": "759",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "884",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "893",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "967",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  },
+  {
+    "room_name": "Premium Room, 1 King Bed, Corner (Panorama)",
+    "data": [
+      {
+        "rate_name": "Premium Room, 1 King Bed, Corner (Panorama)",
+        "price": "773",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "900",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "910",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "982",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  },
+  {
+    "room_name": "Executive Room, 2 Twin Beds",
+    "data": [
+      {
+        "rate_name": "Executive Room, 2 Twin Beds",
+        "price": "888",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "965",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "975",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "1,047",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  },
+  {
+    "room_name": "Junior Suite, 1 King Bed (Panorama)",
+    "data": [
+      {
+        "rate_name": "Junior Suite, 1 King Bed (Panorama)",
+        "price": "996",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included - Non-refundable",
+        "price": "1,066",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "1,160",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "1,172",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "1,242",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  },
+  {
+    "room_name": "Junior Suite, 1 King Bed (Park)",
+    "data": [
+      {
+        "rate_name": "Junior Suite, 1 King Bed (Park)",
+        "price": "1,010",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included - Non-refundable",
+        "price": "1,080",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "1,176",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "1,188",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "1,258",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  },
+  {
+    "room_name": "Suite, 1 Bedroom (Panorama)",
+    "data": [
+      {
+        "rate_name": "Suite, 1 Bedroom (Panorama)",
+        "price": "1,052",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included - Non-refundable",
+        "price": "1,121",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "1,225",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "1,237",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "1,306",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  },
+  {
+    "room_name": "Suite, 1 King Bed (Grand View Penthouse)",
+    "data": [
+      {
+        "rate_name": "Suite, 1 King Bed (Grand View Penthouse)",
+        "price": "1,741",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included - Non-refundable",
+        "price": "1,810",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "2,027",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "2,048",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "2,110",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  },
+  {
+    "room_name": "Penthouse, 1 King Bed (Panorama)",
+    "data": [
+      {
+        "rate_name": "Penthouse, 1 King Bed (Panorama)",
+        "price": "1,741",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included - Non-refundable",
+        "price": "1,810",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "2,027",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "2,048",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "2,110",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  },
+  {
+    "room_name": "Suite, 1 King Bed (Grand Park, Lounge Access)",
+    "data": [
+      {
+        "rate_name": "Suite, 1 King Bed (Grand Park, Lounge Access)",
+        "price": "1,950",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included - Non-refundable",
+        "price": "2,019",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included - Non-refundable",
+        "price": "2,089",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "2,271",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "2,294",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "2,353",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  },
+  {
+    "room_name": "Grand Penthouse (Park Suite)",
+    "data": [
+      {
+        "rate_name": "Grand Penthouse (Park Suite)",
+        "price": "2,019",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included - Non-refundable",
+        "price": "2,089",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included - Non-refundable",
+        "price": "2,164",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "2,352",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "2,376",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "2,435",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  },
+  {
+    "room_name": "Presidential Suite",
+    "data": [
+      {
+        "rate_name": "Presidential Suite",
+        "price": "2,075",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included - Non-refundable",
+        "price": "2,145",
+        "currency": "AUD",
+        "topdeal": true,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included - Non-refundable",
+        "price": "2,223",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "2,417",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included",
+        "price": "2,441",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      },
+      {
+        "rate_name": "Internet Included, Breakfast Included",
+        "price": "2,498",
+        "currency": "AUD",
+        "topdeal": false,
+        "guests": "2"
+      }
+    ]
+  }
+]
