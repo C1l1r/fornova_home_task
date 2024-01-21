@@ -5,45 +5,35 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
 from lxml import etree
-import argparse
-import sys
-
-parser = argparse.ArgumentParser(prog='web_scraper_lxml', description="Takes data from qantas.com. No beautiful soup")
-
-parser.add_argument('-o', '--out', nargs='?', help='Optional out file', default=None)
-parser.add_argument('links', nargs='+', help='List of links')
-
-args = parser.parse_args(sys.argv[1:])
 
 
 
 def scrape_url(url):
-    number_of_scrolls = 5
-    scroll_pause_time = 3  # in seconds
+    NUMBER_OF_SCROLLS = 5
+    SCROLL_PAUSE_TIME = 3  # in seconds
 
-    # Initialize the WebDriver (this example uses Firefox)
+    # We use them to gather dynamically loaded hotel rooms info
     driver = webdriver.Firefox()
 
-    # Open the URL
     driver.get(url)
 
     # Scroll down the page
-    for i in range(number_of_scrolls):
+    for i in range(NUMBER_OF_SCROLLS):
         driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.END)
-        time.sleep(scroll_pause_time)
+        time.sleep(SCROLL_PAUSE_TIME)
 
-    # Get the page source and close the browser
     html_content = driver.page_source
     driver.quit()
 
+    """
+    1. Search for the boxes by h3 tag, "View room details" button and contain price tag
+    2. Iterate through chlid boxes and gather needed info
+    """
 
-    # Parse the HTML content
     tree = etree.HTML(html_content)
 
     hotel_accomodations = []
-    processed_rooms = set()  # Set to keep track of processed room names
 
-    # Find buttons with specific text
     buttons = tree.xpath("//button[contains(text(), 'View room details')]")
 
     # Navigate to the container that holds the room details
@@ -57,20 +47,12 @@ def scrape_url(url):
             if room_elements:
                 room_name = room_elements[0].text.strip()
 
-                # Skip if this room has already been processed
-                if room_name in processed_rooms:
-                    continue
-                processed_rooms.add(room_name)
-
-                price_elements = box.xpath(".//span[@data-testid='amount']")
-                price = price_elements[0].text.strip() if price_elements else None
-
                 rooms = []
                 guests = None
 
                 for heading in box.xpath(".//h3[contains(@class, 'Heading-Heading-Text')]"):
                     mini_box = heading.getparent()
-                    for _ in range(2):  # Adjust as necessary
+                    for _ in range(2):
                         mini_box = mini_box.getparent()
 
                     price_elements = mini_box.xpath(".//span[@data-testid='amount']")
@@ -97,18 +79,30 @@ def scrape_url(url):
 
                 hotel_accomodations.append({'room_name': room_name, 'data': rooms})
 
-    #print(json.dumps(hotel_accomodations, indent=2))
     return hotel_accomodations
 #%%
 
-hotel_accomodations = []
-for url in args.links:
-    hotel_accomodations += scrape_url(url)
 
-output = json.dumps(hotel_accomodations, indent=2)
+if __name__ == "__main__":
 
-if args.out == None:
-    print(output)
-else:
-    with open(args.out, 'w') as file:
-        print(output, file = file)
+    import argparse
+    import sys
+
+    parser = argparse.ArgumentParser(prog='web_scraper_lxml', description="Takes data from qantas.com. No beautiful soup")
+
+    parser.add_argument('-o', '--out', nargs='?', help='Optional out file', default=None)
+    parser.add_argument('links', nargs='+', help='List of links')
+
+    args = parser.parse_args(sys.argv[1:])
+
+    hotel_accomodations = []
+    for url in args.links:
+        hotel_accomodations += scrape_url(url)
+
+    output = json.dumps(hotel_accomodations, indent=2)
+
+    if args.out == None:
+        print(output)
+    else:
+        with open(args.out, 'w') as file:
+            print(output, file = file)
