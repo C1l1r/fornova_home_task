@@ -61,7 +61,6 @@ def scrape_url(url):
                                         'data': rooms
                                         })
     return hotel_accomodations
-#%%
 
 
 if __name__ == '__main__':
@@ -87,7 +86,3 @@ if __name__ == '__main__':
     else:
         with open(args.out, 'w') as file:
             print(output, file=file)
-
-#%%
-
-#%%

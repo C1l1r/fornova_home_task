@@ -80,7 +80,6 @@ def scrape_url(url):
                 hotel_accomodations.append({'room_name': room_name, 'data': rooms})
 
     return hotel_accomodations
-#%%
 
 
 if __name__ == "__main__":
